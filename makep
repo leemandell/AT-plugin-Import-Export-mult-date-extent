@@ -1,0 +1,9 @@
+#!/bin/sh
+cp -v plugin.xml out/production/BYUImportExport
+
+cd out/production/BYUImportExport
+
+zip -rv BYUImportExport.zip . -i \*.class *.xml \*.java
+cp -v BYUImportExport.zip /Users/leemandell/archivistsToolkit/atProject/plugins
+cp -v BYUImportExport.zip /Users/leemandell/archivistsToolkit/vanilla\ AT\ 2.0/plugins
+cp -v BYUImportExport.zip /Applications/Archivists\'\ Toolkit\ 2.0/plugins

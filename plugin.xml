@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<!DOCTYPE plugin PUBLIC "-//JPF//Java Plug-in Manifest 1.0" "http://jpf.sourceforge.net/plugin_1_0.dtd">
+<plugin id="edu.byu.plugins.importExport.importExport" version="0.0.1"
+class="edu.byu.plugins.importExport.ImportExport">
+	<runtime>
+	  <library id="importExport" path="/" type="code"/>
+  </runtime>
+</plugin>
